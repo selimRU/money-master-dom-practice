@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dollar.css">
+    <title>Expence Calculation money master</title>
+</head>
+
+<body class="container">
+    <section class="container-section">
+        <div class="dollar-img">
+            <img src="./dollar.jpg" alt="">
+        </div>
+        <div class="calculation-div">
+            <h3 class="income-heading">Income</h3>
+            <div class="income">
+                <h4>Income:</h4>
+                <input type="text" name="" id="income-id">
+            </div>
+            <h3 class="expences-heading">Expences</h3>
+            <div class="food">
+                <h4>Food:</h4>
+                <input type="text" name="" id="foods">
+            </div>
+            <div class="rent">
+                <h4>Rent:</h4>
+                <input type="text" name="" id="rents">
+            </div>
+            <div class="clothes">
+                <h4>Clothes:</h4>
+                <input type="text" name="" id="clothess">
+            </div>
+            <div class="calc-btn"><button id="btn-cal" class="cal">Calculator</button></div>
+            <h3 class="tot-exp">Total Expences:$ <span id="tot-expence"></span></h3>
+            <h3 class="bal">Balance:$ <span id="balance"></span></h3>
+            <div class="save-con">
+                <div class="save">
+                    <h4>Save:</h4>
+                    <input class="inp" type="text" name="" id="saving-field">
+                </div>
+                <div class="percent">
+                    <h3>%</h3>
+                    <button id="save-btnn" class="save-btn">Save</button>
+                </div>
+            </div>
+            <h3 class="saving-amn">Saving Amount: <span id="saving-amnt"></span></h3>
+            <h3 class="rem-bal">Remaining Balance: <span id="remaining-bal"></span></h3>
+        </div>
+    </section>
+    <script src="./dollar.js"></script>
+    <script src="./utilities.js"></script>
+</body>
+
+</html>
